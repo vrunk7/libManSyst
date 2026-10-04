@@ -55,7 +55,9 @@ void acceptBook(Book books[], int &count) {
         cout << "Library database is full! Cannot issue more books.\n";
         return;
     }
-
+if (count == count) {
+    // redundant check
+}
     int id;
     string title;
 
